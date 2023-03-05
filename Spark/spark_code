@@ -1,1 +1,91 @@
+# Import necessary PySpark modules
+from pyspark.sql import SparkSession
+import time
 
+# Create a SparkSession object
+spark = SparkSession.builder.appName("FlightData").getOrCreate()
+
+# Read in the flight data from a CSV file
+flight_data = spark.read.format("csv").option("header", "true").load("s3://myuombucketnisal/data/DelayedFlights-updated.csv")
+
+
+flight_data.createOrReplaceTempView("flight_data")
+
+
+#CarrierDelay Query
+
+start_time = time.time()
+
+spark.sql("""
+	SELECT Year As Year, SUM(CarrierDelay) As TotalCarrierDelay
+	FROM flight_data
+	WHERE Year >= 2003 AND Year <= 2010
+	GROUP BY Year
+	ORDER BY Year""").show()
+
+end_time = time.time()
+run_time = end_time - start_time
+print("Query run time: ", run_time, " seconds")
+
+
+#NASDelay Query
+
+start_time = time.time()
+
+spark.sql("""
+	SELECT Year As Year, SUM(NASDelay) As TotalNASDelay
+	FROM flight_data
+	WHERE Year >= 2003 AND Year <= 2010
+	GROUP BY Year
+	ORDER BY Year""").show()
+
+end_time = time.time()
+run_time = end_time - start_time
+print("Query run time: ", run_time, " seconds")
+
+
+#WeatherDelay Query
+
+start_time = time.time()
+
+spark.sql("""
+	SELECT Year As Year, SUM(WeatherDelay) As TotalWeatherDelay
+	FROM flight_data
+	WHERE Year >= 2003 AND Year <= 2010
+	GROUP BY Year
+	ORDER BY Year""").show()
+
+end_time = time.time()
+run_time = end_time - start_time
+print("Query run time: ", run_time, " seconds")
+
+
+#LateAircraftDelay Query
+
+start_time = time.time()
+
+spark.sql("""
+	SELECT Year As Year, SUM(LateAircraftDelay) As TotalLateAircraftDelay
+	FROM flight_data
+	WHERE Year >= 2003 AND Year <= 2010
+	GROUP BY Year
+	ORDER BY Year""").show()
+
+end_time = time.time()
+run_time = end_time - start_time
+print("Query run time: ", run_time, " seconds")
+
+#SecurityDelay Query
+
+start_time = time.time()
+
+spark.sql("""
+	SELECT Year As Year, SUM(SecurityDelay) As TotalSecurityDelay
+	FROM flight_data
+	WHERE Year >= 2003 AND Year <= 2010
+	GROUP BY Year
+	ORDER BY Year""").show()
+
+end_time = time.time()
+run_time = end_time - start_time
+print("Query run time: ", run_time, " seconds")
