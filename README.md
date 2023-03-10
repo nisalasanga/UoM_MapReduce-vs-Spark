@@ -7,7 +7,7 @@ The MapReduce process is typically executed in a distributed computing environme
 
 ![The-Architecture-of-MapReduce](https://user-images.githubusercontent.com/63199917/224222081-47e41ca4-cccd-495b-8562-a198fa1475b1.jpg | width = 150 )
 
-<The-Architecture-of-MapReduce src="[https://your-image-url.type](https://user-images.githubusercontent.com/63199917/224222081-47e41ca4-cccd-495b-8562-a198fa1475b1.jpg)" width="100" height="100">
+<The-Architecture-of-MapReduce src="[https://github.com/nisalasanga/UoM_MapReduce-vs-Spark/blob/main/Other/The-Architecture-of-MapReduce.jpg)" width="100" height="100">
 
 As shown in the above figure mapreduce contain 5 steps.
 
