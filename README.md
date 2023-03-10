@@ -69,21 +69,21 @@ Then enabled the SSH conection using putty (Note that make sure to edit inbound 
 For the Mapreduce we used hive and for spark we used pyspark.
 Please find attached codes in the respective folders in this repository.
 
-To connect to hive using Amazon Emr just type 'hive' and to connect spark type 'pyspark'.
+To connect to hive using Amazon Emr just type 'hive' and to connect spark type 'pyspark' in the EMR terminal.
 
 In this analysis we ran queries for follwing questions.
 
-  1.Year wise carrier delay from 2003-2010
-  2.Year wise NAS delay from 2003-2010
-  3.Year wise Weather delay from 2003-2010
-  4.Year wise late aircraft delay from 2003-2010
-  5.Year wise security delay from 2003-2010
+  1.Year wise carrier delay from 2003-2010 
+  2.Year wise NAS delay from 2003-2010 
+  3.Year wise Weather delay from 2003-2010 
+  4.Year wise late aircraft delay from 2003-2010 
+  5.Year wise security delay from 2003-2010 
   
-Ran queries using Hive and pySpark for 5 times and plot a graph in comparing both methods (running time vs iteration)
+Ran queries using Hive and pySpark for 5 times and plot a graph in comparing both methods (running time vs iteration) 
 
-processed all queries and plot the time-comparison graphs
+processed all queries and plot the time-comparison graphs 
 
-Calculated average time taken by MapReduce and Spark for each query and plot the graph
+Calculated average time taken by MapReduce and Spark for each query and plot the graph 
 
 
 
