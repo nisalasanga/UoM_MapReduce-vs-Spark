@@ -1,5 +1,5 @@
 # MapReduce vs Spark
-MapReduce and Spark are two popular technologies used for processing and analyzing large data sets. Both technologies are designed for distributed processing of large data sets. Here we are interested in comparing these Two technologies with run time and ease of use.
+MapReduce and Spark are two popular technologies used for processing and analyzing large data sets. Both technologies are designed for distributed processing of large data sets. Here we are interested in comparing these Two technologies with fast processing and ease of use.
 
 # MapReduce
 The MapReduce is a model consists of several steps that are executed in sequence to process and generate large datasets in a parallel and distributed manner.
