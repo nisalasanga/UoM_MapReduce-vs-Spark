@@ -132,13 +132,13 @@ Comparison for all the queries with sample data for an iteration
 ### Ease of use
 MapReduce is a batch processing system that requires developers to write code in Java to process data. It requires developers to have a good understanding of distributed systems and programming in Java. It also requires setting up and maintaining a Hadoop cluster, which can be complex and time-consuming.
 
-Spark provides a more user-friendly and flexible programming model, with support for several programming languages including Java, Python, and Scala. It offers a higher-level API and can perform in-memory data processing, which makes it faster than MapReduce. It also includes a built-in cluster manager that simplifies the process of setting up and maintaining a Spark cluster.
+Spark provides a more user-friendly and flexible programming model, with support for several programming languages including Java, Python, and Scala. It offers a higher-level API. It also includes a built-in cluster manager that simplifies the process of setting up and maintaining a Spark cluster.
 
 Overall, Spark is generally considered to be easier to use than MapReduce, especially for developers who are familiar with programming in languages such as Python or Scala. However, both tools require some level of technical expertise and experience with distributed systems to use effectively.
 
 ### Fast Process
 
-From the above analysis we can conclude that Spark is generally faster than MapReduce. Spark is faster than MapReduce due to its in-memory computing, DAG execution, caching, and RDDs. However, the performance also depends on the specific use case and the size of the dataset being processed.
+From the above analysis we can conclude that Spark is generally faster than MapReduce due to its in-memory computing, DAG execution, caching, and RDDs. However, the performance also depends on the specific use case and the size of the dataset being processed.
 
 # References
 
