@@ -130,7 +130,7 @@ Comparison for all the queries with sample data for an iteration
 # Conclusion
 
 ### Ease of use
-MapReduce is a batch processing system that requires developers to write code in Java to process data. It requires developers to have a good understanding of distributed systems and programming in Java. It also requires setting up and maintaining a Hadoop cluster, which can be complex and time-consuming.
+MapReduce is a batch processing system that requires developers to write code in Java to process data. However we used HiveQL which covert HiveQl code in to java code Internally. It requires developers to have a good understanding of distributed systems and programming in Java. It also requires setting up and maintaining a Hadoop cluster, which can be complex and time-consuming.
 
 Spark provides a more user-friendly and flexible programming model, with support for several programming languages including Java, Python, and Scala. It offers a higher-level API. It also includes a built-in cluster manager that simplifies the process of setting up and maintaining a Spark cluster.
 
