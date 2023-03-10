@@ -42,10 +42,10 @@ Spark includes a variety of components, including:
 The basic building block of the Spark platform, which provides the distributed task scheduling and data distribution functionality that underlies all Spark applications.
 
 ##### Spark SQL: 
-a module that provides a programming interface for working with structured and semi-structured data using SQL queries and data frames.
+A module that provides a programming interface for working with structured and semi-structured data using SQL queries and data frames.
 
 ##### Spark Streaming: 
-a module for processing live data streams in real time.
+A module for processing live data streams in real time.
 
 ##### MLlib: 
 A library of machine learning algorithms for classification, regression, clustering, and collaborative filtering.
