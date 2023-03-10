@@ -120,7 +120,7 @@ To connect to hive using Amazon Emr just type 'hive' and to connect spark type '
 Comparison for all the queries with sample data for an iteration
 
 <p align="center">
-  <img src="https://github.com/nisalasanga/UoM_MapReduce-vs-Spark/blob/main/Other/Picture6.png" width="720" height="400">
+  <img src="https://github.com/nisalasanga/UoM_MapReduce-vs-Spark/blob/main/Other/Picture6.png" width="720" height="300">
 </p>
 
 <p align="center">
