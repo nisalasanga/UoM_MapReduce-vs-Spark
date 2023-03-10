@@ -65,5 +65,25 @@ First thing is go to s3 and create a bucket
 
 After that go inside that bucket and create a folder. Then upload the data to that folder.
 
-![image](https://user-images.githubusercontent.com/63199917/224231899-9b5be143-0aa6-453f-904f-6deaa1632501.png)
+<img width="804" alt="s3 folder" src="https://user-images.githubusercontent.com/63199917/224232027-2d7f2c17-6695-43ba-a4de-6f3a71f8d3f8.png">
+
+### Crating a cluster Using Amazon EMR
+
+Go to Amazon Emr and click create cluster.
+Then go to advanced settings and choose folowing cinfigurations.
+Here we have use hive and spark both for fair evaluation (same resourses)  
+
+<img width="806" alt="emr cluster" src="https://user-images.githubusercontent.com/63199917/224232533-911f8b7d-f334-45b4-87a3-d4a5a49fb9f9.png">
+
+Click next.
+In the Hadware configuration section choose x4.large for master and core nodes.
+
+<img width="803" alt="Hardwaare config" src="https://user-images.githubusercontent.com/63199917/224232839-2b29981c-79d8-4b13-90a1-2cb24eda18d8.png">
+
+Click next
+again click next
+
+In the security section select your Ec2 key pair.
+
+Click Create cluster.
 
