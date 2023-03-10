@@ -59,7 +59,7 @@ Also, Spark can be used with a variety of programming languages, including Java,
 
 ## Dataset
 
-The below provided dataset, contain up to 1.936.758 different internal flights in the US for 2008 and their causes for delay, diversion and cancellation; if any.
+The below dataset, contain up to 1.936.758 different internal flights in the US for 2008 and their causes for delay, diversion and cancellation; if any.
 
 https://www.kaggle.com/code/adveros/flight-delay-eda-exploratory-data-analysis/notebook
 However we have used a sample of this dataset for the analysis.
