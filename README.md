@@ -55,5 +55,15 @@ https://www.kaggle.com/code/adveros/flight-delay-eda-exploratory-data-analysis/n
 However we have used a sample of this dataset for the analysis.
 
 ## Analysis
-For the Analysis, We used Amazon Emr.
+To store the data we used Amazon s3 and for the Analysis, We used Amazon Emr.
+
+### Storing Data using Amazon s3
+
+First thing is go to s3 and create a bucket
+
+<img width="948" alt="S3 bucket" src="https://user-images.githubusercontent.com/63199917/224231105-8d55cb1b-907a-4fd8-982d-d6c822bddc03.png">
+
+Then go inside that bucket and create a folder.
+
+<img width="804" alt="s3 folder" src="https://user-images.githubusercontent.com/63199917/224231421-285bdd54-79e1-4f2f-a5ee-3e3f365be2eb.png">
 
