@@ -118,9 +118,14 @@ To connect to hive using Amazon Emr just type 'hive' and to connect spark type '
 
 
 Comparison for all the queries with sample data for an iteration
-![image](https://user-images.githubusercontent.com/63199917/224237034-606d1ed7-7c5f-445f-b849-166ff45a2250.png)
 
-![image](https://user-images.githubusercontent.com/63199917/224237125-06efbef7-6939-4c4b-a2f2-3040bfbd1bba.png)
+<p align="center">
+  <img src="https://github.com/nisalasanga/UoM_MapReduce-vs-Spark/blob/main/Other/Picture6.png" width="720" height="400">
+</p>
+
+<p align="center">
+  <img src="https://github.com/nisalasanga/UoM_MapReduce-vs-Spark/blob/main/Other/Picture7.png" width="720" height="400">
+</p>
 
 # Conclusion
 
