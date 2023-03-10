@@ -1,9 +1,13 @@
+#Type hive in the EMR terminal to use hive
 hive
 
+#Showing existing databases
 show databases;
 
+#Using default Database
 use default;
 
+#Creating An external Table
 CREATE EXTERNAL TABLE IF NOT EXISTS flight_data(
   Counter int,
   Year int, 
@@ -40,12 +44,15 @@ ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ',' 
 LOCATION '/user/tables/flight_data';
 
+#Showing existing tables
 show tables;
 
+#Loading data from s3 to flight_data table created above
 LOAD DATA INPATH 's3://myuombucketnisal/data/DelayedFlights-updated.csv' OVERWRITE INTO TABLE flight_data;
 
-	
+#By default hive doesnt show headers of the output columns therefore enabling manually	
 SET hive.cli.print.header=true;
+
 
 SELECT Year As Year, SUM(CarrierDelay) As TotalCarrierDelay
 FROM flight_data
