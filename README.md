@@ -30,7 +30,7 @@ Spark provides a unified framework for processing and analyzing data from a vari
 
 Spark includes a variety of components, including:
 
-![5fa7ecda6639f6566345729b_Apache Spark Ecosystem PNG-p-1080](https://user-images.githubusercontent.com/63199917/224227452-f256e191-9f04-49e1-9dad-94c1628ea1dd.png)
+<img src="https://github.com/nisalasanga/UoM_MapReduce-vs-Spark/blob/main/Other/The-Architecture-of-MapReduce.jpg" width="720" height="400">
 
 ##### Spark Core: 
 The basic building block of the Spark platform, which provides the distributed task scheduling and data distribution functionality that underlies all Spark applications.
