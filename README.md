@@ -55,36 +55,48 @@ https://www.kaggle.com/code/adveros/flight-delay-eda-exploratory-data-analysis/n
 However we have used a sample of this dataset for the analysis.
 
 ## Analysis
-To store the data we used Amazon s3 and for the Analysis, We used Amazon Emr.
+To store the data we used Amazon s3 and for the Analysis, We used a Amazon Emr cluster.
 
-### Storing Data using Amazon s3
+In the cluster configuration we have used hive and spark both for fair evaluation (same resourses). 
+Also, In the Hadware configuration section we used one master and two core nodes with both having m4.xlarge.
 
-First thing is go to s3 and create a bucket
+Then enabled the SSH conection using putty (Note that make sure to edit inbound rules in the security groups) and connected to EMR terminal.
 
-<img width="948" alt="S3 bucket" src="https://user-images.githubusercontent.com/63199917/224231105-8d55cb1b-907a-4fd8-982d-d6c822bddc03.png">
+For the Mapreduce we used hive and for spark we used pyspark.
+Please find attached codes in the respective folders in this repository.
 
-After that go inside that bucket and create a folder. Then upload the data to that folder.
+To connect to hive using Amazon Emr just type 'hive' and to connect spark type 'pyspark'.
 
-<img width="804" alt="s3 folder" src="https://user-images.githubusercontent.com/63199917/224232027-2d7f2c17-6695-43ba-a4de-6f3a71f8d3f8.png">
+In this analysis we ran queries for follwing questions.
 
-### Crating a cluster Using Amazon EMR
+  1.Year wise carrier delay from 2003-2010
+  2.Year wise NAS delay from 2003-2010
+  3.Year wise Weather delay from 2003-2010
+  4.Year wise late aircraft delay from 2003-2010
+  5.Year wise security delay from 2003-2010
+  
+Ran queries using Hive and pySpark for 5 times and plot a graph in comparing both methods (running time vs iteration)
 
-Go to Amazon Emr and click create cluster.
-Then go to advanced settings and choose folowing cinfigurations.
-Here we have use hive and spark both for fair evaluation (same resourses)  
+processed all queries and plot the time-comparison graphs
 
-<img width="806" alt="emr cluster" src="https://user-images.githubusercontent.com/63199917/224232533-911f8b7d-f334-45b4-87a3-d4a5a49fb9f9.png">
+Calculated average time taken by MapReduce and Spark for each query and plot the graph
 
-Click next.
-In the Hadware configuration section choose x4.large for master and core nodes.
 
-<img width="803" alt="Hardwaare config" src="https://user-images.githubusercontent.com/63199917/224232839-2b29981c-79d8-4b13-90a1-2cb24eda18d8.png">
+![image](https://user-images.githubusercontent.com/63199917/224236479-a35a5a34-de1c-4dfb-9d36-b99e03c845ad.png)
 
-Click next
+![image](https://user-images.githubusercontent.com/63199917/224236422-4b806b04-3591-49f5-9007-700ad5c4627b.png)
 
-again click next
+ 
+ 
+ 
+ 
+![image](https://user-images.githubusercontent.com/63199917/224236261-78b6c756-c69d-4263-9ce7-3e2fdec211d0.png)
 
-In the security section select your Ec2 key pair.
+ 
+![image](https://user-images.githubusercontent.com/63199917/224236172-12be4acb-a3a8-42a9-bf5e-f1f5ee707cda.png)
 
-Click Create cluster.
+
+## Results
+
+  
 
