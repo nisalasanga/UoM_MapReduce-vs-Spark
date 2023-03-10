@@ -81,7 +81,8 @@ In the Hadware configuration section choose x4.large for master and core nodes.
 <img width="803" alt="Hardwaare config" src="https://user-images.githubusercontent.com/63199917/224232839-2b29981c-79d8-4b13-90a1-2cb24eda18d8.png">
 
 Click next
-/t again click next
+
+again click next
 
 In the security section select your Ec2 key pair.
 
