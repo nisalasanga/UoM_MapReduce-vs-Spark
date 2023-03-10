@@ -95,11 +95,26 @@ To connect to hive using Amazon Emr just type 'hive' and to connect spark type '
 
 ## Results
 
-![image](https://user-images.githubusercontent.com/63199917/224236792-2da158c9-6c1b-434c-93d7-ea2b42589df7.png)
-![image](https://user-images.githubusercontent.com/63199917/224236805-3a3b3dd3-8b33-46ff-8e04-47f2273c77df.png)
-![image](https://user-images.githubusercontent.com/63199917/224236824-c198b003-e0d9-4f61-b4b8-89e6ca1c40e0.png)
-![image](https://user-images.githubusercontent.com/63199917/224236849-f3528432-3846-49d7-9d25-ddfc23a1b9e8.png)
-![image](https://user-images.githubusercontent.com/63199917/224236877-a721d138-bf19-4a9d-aa55-99531ad09869.png)
+<p align="center">
+  <img src="https://github.com/nisalasanga/UoM_MapReduce-vs-Spark/blob/main/Other/Picture1.png" width="720" height="400">
+</p>
+
+<p align="center">
+  <img src="https://github.com/nisalasanga/UoM_MapReduce-vs-Spark/blob/main/Other/Picture2.png" width="720" height="400">
+</p>
+
+<p align="center">
+  <img src="https://github.com/nisalasanga/UoM_MapReduce-vs-Spark/blob/main/Other/Picture3.png" width="720" height="400">
+</p>
+
+<p align="center">
+  <img src="https://github.com/nisalasanga/UoM_MapReduce-vs-Spark/blob/main/Other/Picture4.png" width="720" height="400">
+</p>
+
+<p align="center">
+  <img src="https://github.com/nisalasanga/UoM_MapReduce-vs-Spark/blob/main/Other/Picture5.png" width="720" height="400">
+</p>
+
 
 
 Comparison for all the queries with sample data for an iteration
