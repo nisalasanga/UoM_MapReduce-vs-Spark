@@ -82,19 +82,6 @@ processed all queries and plot the time-comparison graphs
 Calculated average time taken by MapReduce and Spark for each query and plot the graph
 
 
-![image](https://user-images.githubusercontent.com/63199917/224236479-a35a5a34-de1c-4dfb-9d36-b99e03c845ad.png)
-
-![image](https://user-images.githubusercontent.com/63199917/224236422-4b806b04-3591-49f5-9007-700ad5c4627b.png)
-
- 
- 
- 
- 
-![image](https://user-images.githubusercontent.com/63199917/224236261-78b6c756-c69d-4263-9ce7-3e2fdec211d0.png)
-
- 
-![image](https://user-images.githubusercontent.com/63199917/224236172-12be4acb-a3a8-42a9-bf5e-f1f5ee707cda.png)
-
 
 ## Results
 
