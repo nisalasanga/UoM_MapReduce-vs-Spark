@@ -44,3 +44,8 @@ MLlib: a library of machine learning algorithms for classification, regression, 
 ##### GraphX: a library for graph processing and analysis.
 
 Also, Spark can be used with a variety of programming languages, including Java, Scala, Python, and R. It can run on a variety of cluster managers, including Hadoop YARN, Apache Mesos, and Kubernetes.
+
+# Loading, Processing and Quering data using MapReduce And Spark
+
+## Dataset
+
