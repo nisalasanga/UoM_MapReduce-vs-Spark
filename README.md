@@ -85,5 +85,29 @@ Calculated average time taken by MapReduce and Spark for each query and plot the
 
 ## Results
 
+![image](https://user-images.githubusercontent.com/63199917/224236792-2da158c9-6c1b-434c-93d7-ea2b42589df7.png)
+![image](https://user-images.githubusercontent.com/63199917/224236805-3a3b3dd3-8b33-46ff-8e04-47f2273c77df.png)
+![image](https://user-images.githubusercontent.com/63199917/224236824-c198b003-e0d9-4f61-b4b8-89e6ca1c40e0.png)
+![image](https://user-images.githubusercontent.com/63199917/224236849-f3528432-3846-49d7-9d25-ddfc23a1b9e8.png)
+![image](https://user-images.githubusercontent.com/63199917/224236877-a721d138-bf19-4a9d-aa55-99531ad09869.png)
+
+
+Comparison for all the queries with sample data for an iteration
+![image](https://user-images.githubusercontent.com/63199917/224237034-606d1ed7-7c5f-445f-b849-166ff45a2250.png)
+
+![image](https://user-images.githubusercontent.com/63199917/224237125-06efbef7-6939-4c4b-a2f2-3040bfbd1bba.png)
+
+# Conclusion
+
+
+# References
+
+Figure 1: https://intellipaat.com/blog/wp-content/uploads/2016/11/The-Architecture-of-MapReduce.jpg
+
+Figure 2: https://www.datamechanics.co/apache-spark
+
+
+
+
   
 
