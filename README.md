@@ -63,7 +63,7 @@ First thing is go to s3 and create a bucket
 
 <img width="948" alt="S3 bucket" src="https://user-images.githubusercontent.com/63199917/224231105-8d55cb1b-907a-4fd8-982d-d6c822bddc03.png">
 
-Then go inside that bucket and create a folder.
+After that go inside that bucket and create a folder. Then upload the data to that folder.
 
-<img width="804" alt="s3 folder" src="https://user-images.githubusercontent.com/63199917/224231421-285bdd54-79e1-4f2f-a5ee-3e3f365be2eb.png">
+![image](https://user-images.githubusercontent.com/63199917/224231899-9b5be143-0aa6-453f-904f-6deaa1632501.png)
 
