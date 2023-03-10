@@ -9,7 +9,7 @@ The MapReduce process is typically executed in a distributed computing environme
 
 As shown in the above figure mapreduce contain 5 steps.
 
-###### Input Splitting: 
+##### Input Splitting: 
 The input dataset is divided into smaller chunks, called input splits. Each input split is processed independently by a map task.
 
 Mapping: Each input split is processed by a map task, which applies a user-defined map function to each record in the input split. The map function transforms the input record into intermediate key-value pairs.
