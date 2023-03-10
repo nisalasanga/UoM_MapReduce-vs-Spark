@@ -38,10 +38,14 @@ The basic building block of the Spark platform, which provides the distributed t
 ##### Spark SQL: 
 a module that provides a programming interface for working with structured and semi-structured data using SQL queries and data frames.
 
-##### Spark Streaming: a module for processing live data streams in real time.
-MLlib: a library of machine learning algorithms for classification, regression, clustering, and collaborative filtering.
+##### Spark Streaming: 
+a module for processing live data streams in real time.
 
-##### GraphX: a library for graph processing and analysis.
+##### MLlib: 
+A library of machine learning algorithms for classification, regression, clustering, and collaborative filtering.
+
+##### GraphX: 
+A library for graph processing and analysis.
 
 Also, Spark can be used with a variety of programming languages, including Java, Scala, Python, and R. It can run on a variety of cluster managers, including Hadoop YARN, Apache Mesos, and Kubernetes.
 
